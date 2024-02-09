@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+}
+
+.Navbar {
+  background-color: #ffbf69;
+  padding: 20px;
+}
+
+.Navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.Navbar ul li {
+  list-style: none;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.liststyle {
+  text-decoration: none;
+  color: black;
+  font-family: "";
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.container-sip {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  width: 80%;
+  height: 63vh;
+  border-radius: 85% 15% 69% 31% / 33% 69% 31% 67%;
+  transition: border-radius 500ms ease-in-out;
+}
+
+.container-sip:hover {
+  border-radius: 15% 85% 17% 83% / 84% 21% 79% 16%;
+}
+
+.boxes {
+  width: 500px;
+}
+
+.sliders {
+  display: flex;
+  color: #ff9f1c;
+}
+
+.container-swp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 85% 15% 69% 31% / 33% 69% 31% 67%;
+  transition: border-radius 500ms ease-in-out;
+  width: 40vw;
+}
+
+.container-swp:hover {
+  border-radius: 27% 73% 14% 86% / 76% 25% 75% 24%;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-income {
+  background-color: blanchedalmond;
+  display: grid;
+  align-items: center;
+  margin-top: 10px;
+  width: 95%;
+  border-radius: 64% 36% 66% 34% / 100% 0% 100% 0%;
+  transition: border-radius 500ms ease-in-out;
+}
+
+.container-income:hover {
+  border-radius: 33% 67% 52% 48% / 0% 100% 0% 100%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Income {
+  display: flex;
+  flex-direction: column;
+}
+
+.Deductions {
+  display: flex;
+  flex-direction: column;
+}
+
+.HRA {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.text-field {
+  width: 400px;
+}
+/* Media Queries  */
+
+@media only screen and (max-width: 1024px) {
+  /* Your CSS styles for tablet screens go here */
+  .Navbar {
+    padding: 20px;
+  }
+
+  .main-container {
+    margin-top: 3%;
+  }
+  .container-sip {
+    margin-top: 50px;
+  }
+
+  .container-income {
+    border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+    transition: border-radius 1000ms ease-in-out;
+  }
+
+  .container-income:hover {
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-sip {
+    display: flex;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  /* Your CSS styles for smaller mobile screens go here */
+
+  .main-container {
+    display: flex;
+  }
+
+  .container-sip {
+    display: block;
+    margin-top: 10px;
+  }
+}
