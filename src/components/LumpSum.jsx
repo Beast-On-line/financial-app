@@ -26,7 +26,6 @@ export default function SipCalculator() {
   const [input, setInput] = useState(sipData);
 
   //Formulas
-  const amounts = input.amount * input.timePeriod * 12;
   const decimalRate = input.returns / 100;
   const totalamount =
     input.amount * Math.pow(1 + decimalRate, input.timePeriod) + 1;
