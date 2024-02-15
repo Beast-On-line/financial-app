@@ -158,6 +158,7 @@ export default function IncomeTax() {
               />
 
               <TextField
+                className="text-field"
                 label="Annual income from house property (rental income)"
                 variant="filled"
                 style={{ color: "black" }}
@@ -181,6 +182,7 @@ export default function IncomeTax() {
                 value={DeductionInput.basicDeduction}
               />
               <TextField
+                className="text-field"
                 label="Contribution to NPS u/s 80CCD(1B)"
                 variant="filled"
                 style={{ color: "black" }}
@@ -190,6 +192,7 @@ export default function IncomeTax() {
                 value={DeductionInput.NPS}
               />
               <TextField
+                className="text-field"
                 label="Medical insurance premium u/s 80D"
                 variant="filled"
                 style={{ color: "black" }}
@@ -199,6 +202,7 @@ export default function IncomeTax() {
                 value={DeductionInput.medicalInsurance}
               />
               <TextField
+                className="text-field"
                 label="Donation to Charity u/s 80G"
                 variant="filled"
                 style={{ color: "black" }}
@@ -208,6 +212,7 @@ export default function IncomeTax() {
                 value={DeductionInput.charity}
               />
               <TextField
+                className="text-field"
                 label="Interest on educational loan u/s 80E"
                 variant="filled"
                 style={{ color: "black" }}
@@ -217,6 +222,7 @@ export default function IncomeTax() {
                 value={DeductionInput.educationLoan}
               />
               <TextField
+                className="text-field"
                 label="Interest on deposits in saving account u/s 80TTA/TTB"
                 variant="filled"
                 style={{ color: "black" }}
@@ -239,6 +245,7 @@ export default function IncomeTax() {
                 value={HRAexempt.salaryPerAnnum}
               />
               <TextField
+                className="text-field"
                 label="HRA Received"
                 variant="filled"
                 style={{ color: "black" }}
@@ -249,6 +256,7 @@ export default function IncomeTax() {
               />
 
               <TextField
+                className="text-field"
                 label="Total Rent Paid"
                 variant="filled"
                 style={{ color: "black" }}
