@@ -139,6 +139,7 @@ export default function IncomeTax() {
                 value={incomeInput.salary}
               />
               <TextField
+                className="text-field"
                 label="Annual income from other sources"
                 variant="filled"
                 style={{ color: "black" }}
@@ -148,6 +149,7 @@ export default function IncomeTax() {
                 value={incomeInput.others}
               />
               <TextField
+                className="text-field"
                 label="Annual income from interest"
                 variant="filled"
                 style={{ color: "black" }}

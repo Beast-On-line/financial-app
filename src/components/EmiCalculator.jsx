@@ -76,7 +76,7 @@ export default function EmiCalculator() {
 
         <div className="container-sip">
           <div>
-            <Box sx={{ width: 500 }}>
+            <Box className="boxes">
               <Typography id="input-slider" gutterBottom>
                 Loan Amount
               </Typography>
@@ -131,7 +131,7 @@ export default function EmiCalculator() {
             </Box>
             <br />
 
-            <Box sx={{ width: 500 }}>
+            <Box className="boxes">
               <Typography id="input-slider" gutterBottom>
                 Interest Rate
               </Typography>
@@ -170,7 +170,7 @@ export default function EmiCalculator() {
             </Box>
 
             <br />
-            <Box sx={{ width: 500 }}>
+            <Box className="boxes">
               <Typography id="input-slider" gutterBottom>
                 Loan Tenure
               </Typography>

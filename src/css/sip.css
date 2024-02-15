@@ -190,4 +190,42 @@ body {
     display: block;
     margin-top: 10px;
   }
+
+  .boxes {
+    width: 360px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  /* Your CSS styles for smaller mobile screens go here */
+
+  .main-container {
+    display: flex;
+  }
+
+  .container-sip {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .boxes {
+    width: 315px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* Your CSS styles for smaller mobile screens go here */
+
+  .main-container {
+    display: flex;
+  }
+
+  .container-sip {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .boxes {
+    width: 280px;
+  }
 }
